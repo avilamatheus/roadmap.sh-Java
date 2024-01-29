@@ -1,4 +1,4 @@
-# Exceções / Exceptions
+# Exceções: Visão Geral / Exceptions: Overview
 
 **PT-BR**  
 O tratamento de exceções em Java é um dos meios eficazes para lidar com erros em tempo de execução, de modo que o fluxo regular da aplicação possa ser preservado. O tratamento de exceções em Java é um mecanismo para lidar com erros em tempo de execução, como ClassNotFoundException, IOException, SQLException, RemoteException, etc.
@@ -319,3 +319,30 @@ Certain key points need to be remembered that are as follows:
 - The finally block is optional. It always gets executed whether an exception occurred in try block or not. If an exception occurs, then it will be executed after try and catch blocks. And if an exception does not occur, then it will be executed after the try block. The finally block in Java is used to put important codes such as clean-up code e.g., closing the file or closing the connection.
 
 - If we write System.exit in the try block, then finally block will not be executed.
+
+# Aprofundando o Conhecimento / Exploring Deeper
+
+**PT-BR**  
+Esta seção contém links para READMEs adicionais que oferecem uma exploração mais aprofundada de conceitos específicos relacionados a exceções em Java.
+
+1. [Tipos de exceções em Java com exemplos](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/1.TypesOfExceptions)
+2. [Java Try Catch Block](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/2.JavaTryCatchBlock)
+3. [throw e throws em Java](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/3.ThrowAndThrows)
+4. [Exceção personalizada definida pelo usuário](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/4.UserDefinedCustomExceptions)
+5. [Exceções encadeadas em Java](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/5.ChainedExceptions)
+6. [Null Pointer Exception](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/6.NullPointerException)
+
+***
+
+**EN-US**  
+This section contains links to additional READMEs that offer a deeper exploration of specific concepts related to exceptions in Java.
+
+1. [Types of Exception in Java with Examples](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/1.TypesOfExceptions)
+2. [Java Try Catch Block](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/2.JavaTryCatchBlock)
+3. [throw and throws in Java](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/3.ThrowAndThrows)
+4. [User-defined Custom Exceptions](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/4.UserDefinedCustomExceptions)
+5. [Chained Exceptions in Java](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/5.ChainedExceptions)
+6. [Null Pointer Exception](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/6.Exceptions/6.NullPointerException)
+
+
+***
