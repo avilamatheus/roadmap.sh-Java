@@ -47,9 +47,9 @@ Inside the `code` folder you will find a Java implementation of a versatile link
 
 ## Como Executar / How to Run
 **PT-BR**  
-Para executar o projeto, você pode utilizar o Maven para construir o projeto e executar os testes unitários utilizando o comando `mvn test` na raiz do projeto. Ao todo, são 30 testes unitários que cobrem todas as funcionalidades da lista encadeada.
+Para executar o projeto, você pode utilizar o Maven para construir o projeto e executar os testes unitários utilizando o comando `mvn test` na raiz do projeto. Ao todo, são 27 testes unitários que cobrem todas as funcionalidades da lista encadeada.
 
 ***
 
 **EN-US**  
-To run the project, you can use Maven to build the project and run the unit tests using the `mvn test` command at the root of the project. In total, there are 30 unit tests that cover all the functionalities of the linked list.
+To run the project, you can use Maven to build the project and run the unit tests using the `mvn test` command at the root of the project. In total, there are 27 unit tests that cover all the functionalities of the linked list.

@@ -1,4 +1,4 @@
-package singleLinkedList;
+package singlelinkedlist;
 
 public class Node<T> {
     protected T data;

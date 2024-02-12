@@ -1,26 +1,46 @@
-package singleLinkedList;
+package singlelinkedlist;
+
+import java.util.List;
 
 public class LinkedList<T> {
     private Node<T> head;
     private Node<T> tail;
-    int size;
+    private int size;
 
     public LinkedList() {
-        head = null;
-        tail = null;
-        size = 0;
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
+
+    // Construtor que recebe uma lista de itens para inicializar a LinkedList
+    LinkedList(List<T> items) {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+
+        for (T item : items) {
+            Node<T> newNode = new Node<>(item);
+            if (head == null) {
+                this.head = newNode;
+            } else {
+                this.tail.setNextNode(newNode);
+            }
+            this.tail = newNode;
+            this.size++;
+        }
+    }
+
+    public Node<T> getHead() {
+        return this.head;
+    }
+
+    public Node<T> getTail() {
+        return this.tail;
     }
 
     public boolean isEmpty() {
         return (head == null && tail == null);
-    }
-
-    void setHead(Node<T> head) {
-        this.head = head;
-    }
-
-    void setTail(Node<T> tail) {
-        this.tail = tail;
     }
 
     public int size() {
@@ -89,7 +109,6 @@ public class LinkedList<T> {
         return false;
     }
 
-
     public int index(T data) {
         if(isEmpty()) {
             throw new IllegalStateException("A Linked List está vazia");
@@ -109,7 +128,6 @@ public class LinkedList<T> {
         }
         return index;
     }
-
 
     public void remove(T data) {
         int index = index(data);
@@ -149,7 +167,6 @@ public class LinkedList<T> {
         }
     }
 
-
     public T removeFromTheEnd() {
         T data;
 
@@ -173,7 +190,6 @@ public class LinkedList<T> {
         this.size--;
         return data;
     }
-
 
     public T removeFromTheBegin() {
         T data;
