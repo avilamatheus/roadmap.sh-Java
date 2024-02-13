@@ -69,3 +69,25 @@
 - **Unsuitable for certain operations**: Linear data structures may not be suitable for operations that require constant random access to elements, such as searching for an element in a large dataset.
 
 ***
+
+# Aprofundando o Conhecimento / Exploring Deeper
+
+**PT-BR**  
+Esta seção contém links para READMEs adicionais que oferecem uma visão mais detalhada das estruturas de dados lineares em Java.
+
+1. [Arrays](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/1.Arrays)
+2. [Linked Lists](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/2.LinkedList)
+3. [Pilhas](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/3.Stacks)
+4. [Filas](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/4.Queues)
+
+***
+
+**EN-US**  
+This section contains links to additional READMEs that offer a more detailed insight into linear data structures in Java.
+
+1. [Arrays](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/1.Arrays)
+2. [Linked Lists](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/2.LinkedList)
+3. [Stacks](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/3.Stacks)
+4. [Queues](https://github.com/avilamatheus/roadmap.sh-Java/tree/master/1.LearnTheFundamentals/7.DataStructures/2.LinearDataStructures/4.Queues)
+
+***
